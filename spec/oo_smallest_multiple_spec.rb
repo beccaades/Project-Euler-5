@@ -16,6 +16,5 @@ describe "SmallestMultiple" do
     end
   end
 
-
 end
 
