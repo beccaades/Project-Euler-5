@@ -16,5 +16,14 @@ describe "SmallestMultiple" do
     end
   end
 
+  describe '#completely_divisible?' do
+    it "checks if a number is completely divisble by a range of numbers" do
+      expect(SmallestMultiple.new(3).completely_divisible?(3,3)).to eq(false)
+    end
+
+    it "checks if a number is completely divisble by a range of numbers" do
+      expect(SmallestMultiple.new(3).completely_divisible?(3,6)).to eq(true)
+    end
+  end
 end
 

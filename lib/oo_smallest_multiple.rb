@@ -14,8 +14,8 @@ class SmallestMultiple
   end
 
   def completely_divisible?(num, answer)
-    (1..self.num).each do |number|
-      return false if (self.answer % number != 0)
+    (1..num).each do |number|
+      return false if (answer % number != 0)
     end
     true
   end
